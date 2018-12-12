@@ -1,2 +1,2 @@
 # kevinarne
-tO SHOW TO ARNE AND KEVIN
+To show code to Kevin and Arne
