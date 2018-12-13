@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { ScrollView, Text, Image, View, FlatList, TouchableHighlight, ActivityIndicator } from 'react-native'
 import firebase from 'react-native-firebase'
 import NavBarRegular from '../../Components/NavBarRegular'
-//import { Images } from '../Themes'
-// Styles
 import styles from './Styles/HomeScreenStyles'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import { Colors, Metrics } from '../../Themes'
@@ -56,10 +54,6 @@ class HomeScreen extends Component {
 
   openDrawer = () => {
     this.props.navigation.navigate("DrawerOpen");
-  }
-
-  openRequests = () => {
-    //this.props.navigation.navigate("RequestsScreen");
   }
 
   openStores = (uid) => {
